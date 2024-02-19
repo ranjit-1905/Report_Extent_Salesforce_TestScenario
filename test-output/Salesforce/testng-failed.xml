@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Salesforce]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="Lead(failed)">
+    <classes>
+      <class name="Test.Lead_Sceanario_ExtentReport">
+        <methods>
+          <include name="AnnualRevenue"/>
+          <include name="Login_Salesforce_page"/>
+          <include name="LeadConversion"/>
+          <include name="LeadStauts"/>
+          <include name="beforemethod"/>
+          <include name="Validate_the_field"/>
+          <include name="LastName_company_check"/>
+          <include name="Lead_LastName_Company"/>
+          <include name="Account_Creation"/>
+          <include name="beforetest"/>
+          <include name="Address"/>
+          <include name="Opportunity_Creation"/>
+          <include name="Homepage"/>
+          <include name="aftertest"/>
+        </methods>
+      </class> <!-- Test.Lead_Sceanario_ExtentReport -->
+    </classes>
+  </test> <!-- Lead(failed) -->
+  <test thread-count="1" parallel="tests" name="Account(failed)">
+    <classes>
+      <class name="Test.Account_Scenario_ExtentReport">
+        <methods>
+          <include name="Address_compare"/>
+          <include name="Login_Salesforce_page"/>
+          <include name="Account_Layouts"/>
+          <include name="beforemethod"/>
+          <include name="Homepage"/>
+          <include name="ShippingAddress_checkbox"/>
+          <include name="Dependency_Filed"/>
+          <include name="aftertest"/>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- Test.Account_Scenario_ExtentReport -->
+    </classes>
+  </test> <!-- Account(failed) -->
+  <test thread-count="1" parallel="tests" name="Opportunity(failed)">
+    <classes>
+      <class name="Test.Opportunity_Scenario_ExtentReport">
+        <methods>
+          <include name="Order_Creation"/>
+          <include name="Opportunity_Layouts"/>
+          <include name="Closed_won"/>
+          <include name="beforemethod"/>
+          <include name="Quote_Rejected"/>
+          <include name="Contract_Created"/>
+          <include name="Homepage"/>
+          <include name="Quote_created_tab"/>
+          <include name="Quote_created_PDF"/>
+          <include name="AutoPopulate_Contact"/>
+          <include name="aftertest"/>
+          <include name="beforetest"/>
+          <include name="Opportunity_Date_Field_Type"/>
+          <include name="Check_Product"/>
+          <include name="Login_Salesforce_page"/>
+          <include name="AutopopulateAnnualRevenue"/>
+          <include name="Quote_Accepted"/>
+          <include name="Notes_Attachmented"/>
+          <include name="Contract_Lost"/>
+          <include name="Qualification_NewTask"/>
+          <include name="Activated_Contract"/>
+        </methods>
+      </class> <!-- Test.Opportunity_Scenario_ExtentReport -->
+    </classes>
+  </test> <!-- Opportunity(failed) -->
+  <test thread-count="1" parallel="tests" name="Opportunity1(failed)">
+    <classes>
+      <class name="Test.Opp_scenario">
+        <methods>
+          <include name="Closed_won"/>
+          <include name="Order_Creation"/>
+          <include name="beforemethod"/>
+          <include name="Quote_Rejected"/>
+          <include name="Contract_Created"/>
+          <include name="Quote_created_PDF"/>
+          <include name="beforetest"/>
+          <include name="Homepage"/>
+          <include name="aftertest"/>
+          <include name="Check_Product"/>
+          <include name="Login_Salesforce_page"/>
+          <include name="Quote_Accepted"/>
+          <include name="Activated_Contract"/>
+          <include name="Contract_Lost"/>
+          <include name="Notes_Attachmented"/>
+        </methods>
+      </class> <!-- Test.Opp_scenario -->
+    </classes>
+  </test> <!-- Opportunity1(failed) -->
+</suite> <!-- Failed suite [Salesforce] -->
